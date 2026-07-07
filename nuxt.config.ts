@@ -10,6 +10,11 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+  runtimeConfig: {
+    public: {
+      apiBase: 'https://fakestoreapi.com',
+    },
+  },
   app: {
     head: {
       htmlAttrs: {

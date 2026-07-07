@@ -18,7 +18,7 @@ import {
     <!-- Top part -->
     <div class="px-5 py-[30px] pb-[40px] md:px-0">
       <div
-        class="app-container flex flex-col gap-14 bg-white pt-5 md:flex-row lg:gap-10 xl:gap-32"
+        class="app-container flex flex-col gap-14 bg-white pt-5 md:flex-row lg:gap-10 xl:gap-28"
       >
         <div class="flex items-end md:pb-5">
           <p class="text-[13px] font-normal leading-6 text-navy/80">
