@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Yekan Bakh";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/YekanBakh-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan Bakh";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/YekanBakh-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan Bakh";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/YekanBakh-Bold.woff2") format("woff2");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-yekan text-navy antialiased;
+  }
+}
+
+@layer components {
+  .app-container {
+    @apply mx-auto w-full max-w-[868px] xl:max-w-[1112px];
+  }
+}
