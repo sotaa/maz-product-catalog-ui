@@ -19,7 +19,7 @@ const { searchInput, applySearch, removeSearch } = useProductFilters();
         v-model="searchInput"
         type="text"
         placeholder="جستجو کنید"
-        class="h-full flex-1 bg-transparent text-sm text-navy outline-none placeholder:text-[#647E9A]"
+        class="h-full flex-1 bg-transparent text-sm text-navy outline-none placeholder:text-[12px] placeholder:text-[#647E9A]"
         @keyup.enter="applySearch"
       />
 
